@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="320" height="520" viewBox="0 0 16 26">
+  <defs>
+    <clipPath id="d">
+      <path d="M0 16V0l26 3-6 5 6 5z"/>
+    </clipPath>
+    <g id="e" transform="translate(3.944272) scale(.625)" style="fill:#fff">
+      <g id="c">
+        <g id="b">
+          <path id="a" d="M1 0H0v.5z" transform="rotate(18 1 0)"/>
+          <use xlink:href="#a" transform="scale(1 -1)" width="100%" height="100%"/>
+        </g>
+        <use xlink:href="#b" transform="rotate(72)" width="100%" height="100%"/>
+      </g>
+      <use xlink:href="#b" transform="rotate(-72)" width="100%" height="100%"/>
+      <use xlink:href="#c" transform="rotate(144)" width="100%" height="100%"/>
+    </g>
+  </defs>
+  <g clip-path="url(#d)" style="fill:#fff;stroke:#c1133d" transform="rotate(90 8 8)">
+    <path d="M26 3 0 0v16l26-3" style="stroke-width:4"/>
+    <path d="M0 8h26" style="stroke-width:2"/>
+  </g>
+  <path d="M16 0H0l8 16Z" style="fill:#001c5a"/>
+  <g transform="rotate(90 1.527864 6.472136)">
+    <circle r="3" style="fill:#fff"/>
+    <circle r="2" style="fill:#c1133d"/>
+    <use xlink:href="#e" x="4" width="100%" height="100%"/>
+    <g id="f">
+      <use xlink:href="#e" width="100%" height="100%"/>
+      <use xlink:href="#e" x="2" transform="rotate(-9.65)" width="100%" height="100%"/>
+      <use xlink:href="#e" x="2" transform="rotate(9.65)" width="100%" height="100%"/>
+    </g>
+    <g id="g">
+      <use xlink:href="#e" transform="rotate(63.435)" width="100%" height="100%"/>
+      <use xlink:href="#e" transform="rotate(92.576)" width="100%" height="100%"/>
+      <use xlink:href="#f" transform="rotate(121.717)" width="100%" height="100%"/>
+      <use xlink:href="#e" transform="rotate(150.859)" width="100%" height="100%"/>
+    </g>
+    <use xlink:href="#e" transform="scale(-1)" width="100%" height="100%"/>
+    <use xlink:href="#g" transform="scale(1 -1)" width="100%" height="100%"/>
+  </g>
+</svg>
