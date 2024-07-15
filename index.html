@@ -11,7 +11,7 @@
   </TABLE>
   <TABLE>
     <TR>
-      <TD>SIGN UP HERE FOR SOME OLD SCHOOL OHIO PROPAGANDA</TD>
+      <TD>SIGN UP HERE FOR SOME OLD SCHOOL OHIO PROPAGANDA </TD>
     </TR>
   </TABLE>
   <TABLE>
@@ -95,6 +95,24 @@
             addLinkClickListeners();
         });
     </SCRIPT>
+
+
+
+            <SCRIPT>
+    function track_msdynmkt_testyouclickedthelink_174834880() {
+        window["msdynmkt"].setUser({ authId: "<customer-id>"});   // ID, e-mail or phone number - see instructions
+        window["msdynmkt"].trackEvent({
+            name: "msdynmkt_testyouclickedthelink_174834880", //Trigger title: TEST You clicked the link
+            ingestionKey : "f384d2a7f41e45dd8a4a732a37f98d87-f1c12534-0226-407e-bba4-03a80bf419a2-7364",
+            version: "1.0.0" ,
+	    properties: {
+		 "clickedthelink" : 'true',
+		 "bindingid" : "<replace-with-string-type-value>"
+		}
+        });
+    }
+      </SCRIPT> 
+<button onclick="track_msdynmkt_testyouclickedthelink_174834880()">Click me</button>
       
       </TD>
     </TR>
