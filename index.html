@@ -39,12 +39,14 @@
         window["msdynmkt"].trackEvent({
             name: "msdynmkt_testtriggergdr3x_124947678", //Trigger title: Test Trigger GDR 3 x
             ingestionKey : "f384d2a7f41e45dd8a4a732a37f98d87-f1c12534-0226-407e-bba4-03a80bf419a2-7364",
-            version: "1.0.0" ,
-	    properties: {
-		 "bindingid" : "true",
-		 "clicked3x" : "3"
-		}
-        });
+            version: "1.0.0",
+	    // To learn more about the event properties below, please see the documentation on Special attributes for custom triggers.
+	    properties: {
+		 "clicked3x" : 3,
+		 "bindingid" : "true"
+
+	    }
+	});
     }
 	</SCRIPT>
 	
@@ -53,7 +55,7 @@
       <TD>What is you Fav Part of Ohio? </TD>
     </TR>
     <TR>
-      <TD>NORTH OHIO <BR> <A HREF="CLEVELAND.jpg" onclick="track_msdynmkt_testtriggergdr3x_124947678()"><IMG SRC="CLEVELAND.jpg"></A></TD> 
+      <TD>NORTH OHIO <BR> <A HREF="CLEVELAND.jpg" onclick="track_msdynmkt_testtriggergdr3x_124947678()"><IMG SRC="CLEVELAND.jpg" onclick="track_msdynmkt_testtriggergdr3x_124947678()"></A></TD> 
       <TD>CENTRAL OHIO <BR> <A HREF="COLUMBUS.jpg" onclick="track_msdynmkt_testtriggergdr3x_124947678()"><IMG SRC="COLUMBUS.jpg"></A></TD>
       <TD>SOUTHERN OHIO <BR> <A HREF="CINCI.jpg" onclick="track_msdynmkt_testtriggergdr3x_124947678()"><IMG SRC="CINCI.jpg"></A></TD>
     </TR>
